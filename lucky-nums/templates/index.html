@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuckyNum</title>
+    <script src="https://unpkg.com/jquery"></script>
+</head>
+<body>
+    <form id="lucky-form">
+        <div>
+            Name: 
+            <input id="name" name="name">
+            <b id="name-err"></b>
+        </div>
+        <div>
+            Birth Year: 
+            <input id="year" name="year">
+            <b id="year-err"></b>
+        </div>
+        <div>
+            Email: 
+            <input id="email" name="email">
+            <b id="email-err"></b>
+        </div>
+        <div>
+            Color: 
+            <select id="color" name="color">
+                <option value="">Favorite Color</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="orange">Orange</option>
+                <option value="blue">Blue</option>
+            </select>
+            <b id="color-err"></b>
+        </div>
+        <button type="submit">I Want To Feel Lucky!</button>
+    </form>
+    <div id="lucky-results" style="margin-top: 20px"></div>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="/static/lucky.js"></script>
+</body>
+</html>
+
+
+
